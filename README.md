@@ -1,1 +1,1 @@
-# goalify-gsc
+Readme for Goalify
