@@ -12,7 +12,7 @@ class SignUp extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            const SizedBox(height: 60.0),
+            const SizedBox(height: 50.0),
             Padding(
               padding:const EdgeInsets.symmetric(horizontal: 20.0),
               child: const Text(
@@ -25,7 +25,7 @@ class SignUp extends StatelessWidget {
                 textAlign: TextAlign.center,
               ),
             ),
-            const SizedBox(height: 10.0),
+            const SizedBox(height: 30.0),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 20.0),
               child: const Text(
@@ -38,7 +38,7 @@ class SignUp extends StatelessWidget {
                 textAlign: TextAlign.center,
               ),
             ),
-            SizedBox(height: 50.0),
+            SizedBox(height: 30.0),
             Padding(
               padding: EdgeInsets.symmetric(horizontal: 20.0),
               child: ElevatedButton(
@@ -56,35 +56,35 @@ class SignUp extends StatelessWidget {
                   'Signup',
                   style: TextStyle(
                     color: Colors.white,
-                    fontSize: 18.0,
+                    fontSize: 25.0,
                   ),
                 ),
               ),
             ),
-            SizedBox(height: 20.0),
+            SizedBox(height: 30.0),
             Padding(
               padding: EdgeInsets.symmetric(horizontal: 15.0),
               child: Text(
                 'Already have an account? Login',
                 style: TextStyle(
                   color: Colors.white,
-                  fontSize: 16.0,
+                  fontSize: 20.0,
                 ),
               ),
             ),
           
            Padding(
-  padding: EdgeInsets.symmetric(horizontal: 10.0),
+  padding: EdgeInsets.only(top: 10.0),
   child: Container(
     alignment: Alignment.bottomRight, // Aligns the child to the bottom right
-    width: double.infinity, // Take full width
+    width: 500, // Take full width
     height: 500.0, // Adjust the height of the container as needed
     child: Container(
-      width: double.infinity,
-      height: double.infinity,
+      //width: double.infinity,
+      //height: double.infinity,
       decoration: BoxDecoration(
         image: DecorationImage(
-          image: AssetImage('public/images/signup.png'),
+          image: AssetImage('public/images/signup1.png'),
           fit: BoxFit.cover,
         ),
       ),
@@ -92,7 +92,7 @@ class SignUp extends StatelessWidget {
   ),
 ),
 
-            SizedBox(height: 20.0),
+            
           ],
         ),
       ),

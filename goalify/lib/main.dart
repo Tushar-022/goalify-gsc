@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
       //home:AboutUs(),
       //home:ProfileScreen(),
       debugShowCheckedModeBanner: false,
-      home:SignUpScreen(),
+      home:SignUp(),
     );
   }
 }
