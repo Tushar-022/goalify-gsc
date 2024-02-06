@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:goalify/pages/signUpScreen.dart';
 import '/pages/splashScreen.dart'; 
 import '/pages/aboutUs.dart';
 import '/pages/temp.dart';
-import '/pages/signUpScreen.dart';
+import '/pages/signUpScreen1.dart';
+import '/pages/signUpScreen2.dart';
 
 
 void main() {
@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
       //home:AboutUs(),
       //home:ProfileScreen(),
       debugShowCheckedModeBanner: false,
-      home:SignUp(),
+      home:SignUpScreen(),
     );
   }
 }
