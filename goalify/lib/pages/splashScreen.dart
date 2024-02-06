@@ -10,13 +10,18 @@ class SplashScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Padding(
-              padding: const EdgeInsets.all(16.0), 
-              child: ClipRRect(
-                borderRadius: BorderRadius.circular(150.0), 
-                child: Image.asset(
-                  'public/images/logo.png', // Update the path to your image asset
-                  width: 250.0, // Set the width as needed
-                  height: 250.0, 
+              padding: const EdgeInsets.all(16.0),
+              child: InkWell(
+                onTap: () {
+                  print('Image clicked');
+                },
+                child: ClipRRect(
+                  borderRadius: BorderRadius.circular(150.0),
+                  child: Image.asset(
+                    'public/images/logo.png', // Update the path to your image asset
+                    width: 250.0, 
+                    height: 250.0,
+                  ),
                 ),
               ),
             ),
